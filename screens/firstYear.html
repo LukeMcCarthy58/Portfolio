@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../scripts/script.js"></script>
+    <title>Apprenticeship Portfolio</title>
+</head>
+<body>
+    <div class="ui top fixed menu">
+        <div class="header item">
+            Luke McCarthy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Portfolio
+        </div>
+        <a class="item" href="../index.html">
+            Home
+        </a>
+        <div class="right menu">
+            <a class="active item" href="./firstYear.html">
+                <b>Year 1</b>
+            </a>
+            <a class="item" href="./secondYear.html">
+                Year 2
+            </a>
+            <a class="item" href="./thirdYear.html">
+                Year 3
+            </a>
+            <a class="item" href="./work.html">
+                Work Projects
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pageTitle">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="mainTitle">
+                <h1>University - First Year</h1>
+            </div>
+            <div class="pageTitleSpace">
+                
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Algorithms and Programming</div>
+                        <div class="description">
+                            An intro to programming using JavaScript. In this module, we started from the bottom, and learned simple JavaScript variables, functions, objects, arrays and classes
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="algorithmsModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Systems Design and Databases</div>
+                        <div class="description">
+                            An intro to designing systems, interviewing clients and a simple database along with diagrams to show how the database has been implemented.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="systemsModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Web and Mobile Development</div>
+                        <div class="description">
+                        An intro into a Mobile First HTML and CSS web application with a JQuery library included to show several images. In this module, the main focus was responsiveness of a website
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="webMobileModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Internet Architecture and Security</div>
+                        <div class="description">
+                        An intro to networking solutions with a focus on IP, protocols and risk assessments relating to a case study for a fake company looking for a network solution for their business
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="internetModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Client-Side Development Project</div>
+                        <div class="description">
+                        A first real project relating to a business case implemented in an MVC style pattern in Vanilla JavaScript, linking to a pre-made backend Web API. 
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="clientProjectModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div class="ui modal" id="algorithms">
+    <i class="close icon"></i>
+    <div class="header">
+        Algorithms and Programming
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Basic Programming</li>
+                    <li>Debugging with DevTools</li>
+                    <li>Problem solving and Logic</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="systems">
+    <i class="close icon"></i>
+    <div class="header">
+        Systems Design and Databases
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/SystemsImage.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>SQL and SQL Server</li>
+                    <li>Client Interviews</li>
+                    <li>Database Diagrams</li>
+                    <li>Working as a team</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="webMobile">
+    <i class="close icon"></i>
+    <div class="header">
+        Web and Mobile Development
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/mobileAppDevelopment.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Media Queries</li>
+                    <li>HTML and CSS</li>
+                    <li>JQuery Library</li>
+                    <li>Mobile First Development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="internet">
+    <i class="close icon"></i>
+    <div class="header">
+        Internet Architecture and Security
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Networking</li>
+                    <li>IP Addressing and Protocols</li>
+                    <li>Encryption/Decryption</li>
+                    <li>Risk Assessments</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="clientProject">
+    <i class="close icon"></i>
+    <div class="header">
+        Client-Side Development Project
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/clientside.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Intro to .NET Core Web API</li>
+                    <li>MVC Pattern</li>
+                    <li>JavaScript in a project</li>
+                    <li>Azure hosting of a database</li>
+                    <li>Bootstrap Intergration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

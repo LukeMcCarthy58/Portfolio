@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../scripts/script.js"></script>
+    <title>Apprenticeship Portfolio</title>
+</head>
+<body>
+    <div class="ui top fixed menu">
+        <div class="header item">
+            Luke McCarthy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Portfolio
+        </div>
+        <a class="item" href="../index.html">
+            Home
+        </a>
+        <div class="right menu">
+            <a class="item" href="./firstYear.html">
+                Year 1
+            </a>
+            <a class="active item" href="./secondYear.html">
+                <b>Year 2</b>
+            </a>
+            <a class="item" href="./thirdYear.html">
+                Year 3
+            </a>
+            <a class="item" href="./work.html">
+                Work Projects
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pageTitle">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="mainTitle">
+                <h1>University - Second Year</h1>
+            </div>
+            <div class="pageTitleSpace">
+                
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Front End Development</div>
+                        <div class="description">
+                            A more in depth look into front end development, with JavaScript frameworks and typing using TypeScript, Angular and KnockoutJS. 
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="frontEndModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Server-Side Development</div>
+                        <div class="description">
+                            A project which focuses on the Server Side, using a PHP framework to build a web app for Expo Tees with a login system and user based roles for students and admins.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="serversideModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Relational and NoSQL Databases</div>
+                        <div class="description">
+                            Working with SQL Server database more in depth, as well as a first look at a NoSQL Database, in this case, Mongo DB.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="nosqlModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Business Organisations</div>
+                        <div class="description">
+                            A project which focused on working with a live client to deliver a solution to a problem they had. In our team's case, we made a new website for Sticky Fingers bar.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="businessModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Hybrid App Development Project</div>
+                        <div class="description">
+                            A project working with a live client to deliver a full stack solution to a use case, whilst focusing on project design and planning, as well as the implementation.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="hybridModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div class="ui modal" id="frontEnd">
+    <i class="close icon"></i>
+    <div class="header">
+        Front End Development
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/knockoutfrontend.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>JavaScript Frameworks</li>
+                    <li>TypeScript</li>
+                    <li>Observables</li>
+                    <li>Node JS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="serverside">
+    <i class="close icon"></i>
+    <div class="header">
+        Server-side Development
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Laravel</li>
+                    <li>MVC in Server Side</li>
+                    <li>Authentication</li>
+                    <li>Database Migrations</li>
+                    <li>Artisan</li>
+                    <li>Composer</li>
+                </ul>
+                <a href="https://github.com/LukeMcCarthy58/ExpoTees">View in GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="nosql">
+    <i class="close icon"></i>
+    <div class="header">
+        Relational and NoSQL Databases
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/mongo.png">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Mongo DB</li>
+                    <li>NoSQL</li>
+                    <li>Advanced Querying and views with SQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="business">
+    <i class="close icon"></i>
+    <div class="header">
+        Business Organisations
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Live Client Requirement Gathering and Interviewing</li>
+                    <li>Source Control</li>
+                    <li>Github</li>
+                    <li>Project Documentation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="hybrid">
+    <i class="close icon"></i>
+    <div class="header">
+        Hybrid App Development Project
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Project Planning and Design</li>
+                    <li>Figma</li>
+                    <li>Sync Fusion/Dev Express</li>
+                    <li>Vue.js</li>
+                    <li>Web Adapters</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,66 @@
+$(document).ready(function(){
+    //First Year
+    $('#algorithmsModal').click(function(){
+        $('#algorithms').modal('show');    
+    });
+    $('#systemsModal').click(function(){
+        $('#systems').modal('show');    
+    });
+    $('#webMobileModal').click(function(){
+        $('#webMobile').modal('show');    
+    });
+    $('#internetModal').click(function(){
+        $('#internet').modal('show');    
+    });
+    $('#clientProjectModal').click(function(){
+        $('#clientProject').modal('show');    
+    });
+    //Second Year
+    $('#frontEndModal').click(function(){
+        $('#frontEnd').modal('show');    
+    });
+    $('#serversideModal').click(function(){
+        $('#serverside').modal('show');    
+    });
+    $('#nosqlModal').click(function(){
+        $('#nosql').modal('show');    
+    });
+    $('#businessModal').click(function(){
+        $('#business').modal('show');    
+    });
+    $('#hybridModal').click(function(){
+        $('#hybrid').modal('show');    
+    });
+    //Third year
+    $('#patternsModal').click(function(){
+        $('#patterns').modal('show');    
+    });
+    $('#apisModal').click(function(){
+        $('#apis').modal('show');    
+    });
+    $('#governanceModal').click(function(){
+        $('#governance').modal('show');    
+    });
+    $('#solutionsModal').click(function(){
+        $('#solutions').modal('show');    
+    });
+    $('#webprojectModal').click(function(){
+        $('#webproject').modal('show');    
+    });
+    //Work
+    $('#helpModal').click(function(){
+        $('#help').modal('show');    
+    });
+    $('#homeModal').click(function(){
+        $('#home').modal('show');    
+    });
+    $('#lookingglassModal').click(function(){
+        $('#lookingglass').modal('show');    
+    });
+    $('#suppliersModal').click(function(){
+        $('#suppliers').modal('show');    
+    });
+    $('#assetModal').click(function(){
+        $('#asset').modal('show');    
+    });
+});

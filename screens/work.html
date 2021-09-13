@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../scripts/script.js"></script>
+    <title>Apprenticeship Portfolio</title>
+</head>
+<body>
+    <div class="ui top fixed menu">
+        <div class="header item">
+            Luke McCarthy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Portfolio
+        </div>
+        <a class="item" href="../index.html">
+            Home
+        </a>
+        <div class="right menu">
+            <a class="item" href="./firstYear.html">
+                Year 1
+            </a>
+            <a class="item" href="./secondYear.html">
+                Year 2
+            </a>
+            <a class="item" href="./thirdYear.html">
+                Year 3
+            </a>
+            <a class="active item" href="./work.html">
+                <b>Work Projects</b>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pageTitle">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="mainTitle">
+                <h1>Work Projects</h1>
+            </div>
+            <div class="pageTitleSpace">
+                
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Staff Help Page</div>
+                        <div class="description">
+                            A help page for staff to use which shows OneDesk champions, a list of training videos to view in microsoft stream, somewhere to submti a bug report, and ability to view support requests. 
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="helpModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Staff Home Page</div>
+                        <div class="description">
+                            A dashboard for employees which shows useful things such as management of annual leave, outstanding company policies, the people team and company benefits.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="homeModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Looking Glass</div>
+                        <div class="description">
+                            An external looking glass which shows commands, ping and traceroutes. The styling was dull and needing freshening up, as well as addition of error handling
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="lookingglassModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">New Suppliers Process</div>
+                        <div class="description">
+                            New procedure for adding a new supplier which requires VAT validation from an external API. Editing this will change states of the current supplier and will enable users to go back to a draft.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="suppliersModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Case Asset System</div>
+                        <div class="description">
+                            A system where assets for cases can be booked in, meaning that a case can not be closed until any assets linked to this case have been resolved. Helpful for finding out where assets are located.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="assetModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<div class="ui modal" id="help">
+    <i class="close icon"></i>
+    <div class="header">
+        Staff Help Page
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/helppage.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Flex Box</li>
+                    <li>Search Bar on type</li>
+                    <li>Accordion to view content</li>
+                    <li>GitLab integration form</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="home">
+    <i class="close icon"></i>
+    <div class="header">
+        Staff Home Page
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/staffpage.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Flex Box</li>
+                    <li>Teams link intergation</li>
+                    <li>Flex Box</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="lookingglass">
+    <i class="close icon"></i>
+    <div class="header">
+        Looking Glass
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/lookingglass.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Bootstrap in a project</li>
+                    <li>Error Handling</li>
+                    <li>Styling relating to errors and success</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="suppliers">
+    <i class="close icon"></i>
+    <div class="header">
+        New Suppliers Process
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/newsupplier.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>External API integration</li>
+                    <li>State management using MySQL database</li>
+                    <li>Error handling between stages</li>
+                    <li>Spinners on load until loaded</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="asset">
+    <i class="close icon"></i>
+    <div class="header">
+        Case Asset System
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/assets.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Accordion</li>
+                    <li>Business Logic</li>
+                    <li>Lightboxes to define and edit assets</li>
+                    <li>Staff Permissions based on cases</li>
+                    <li>CRUD functionality</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../scripts/script.js"></script>
+    <title>Apprenticeship Portfolio</title>
+</head>
+<body>
+    <div class="ui top fixed menu">
+        <div class="header item">
+            Luke McCarthy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Portfolio
+        </div>
+        <a class="item" href="../index.html">
+            Home
+        </a>
+        <div class="right menu">
+            <a class="item" href="./firstYear.html">
+                Year 1
+            </a>
+            <a class="item" href="./secondYear.html">
+                Year 2
+            </a>
+            <a class="active item" href="./thirdYear.html">
+                <b>Year 3</b>
+            </a>
+            <a class="item" href="./work.html">
+                Work Projects
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pageTitle">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="mainTitle">
+                <h1>University - Third Year</h1>
+            </div>
+            <div class="pageTitleSpace">
+                
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Patterns and Frameworks</div>
+                        <div class="description">
+                            A deep dive into different patterns and frameworks that applications make use of to maintain reuable code and decoupling of classes and methods.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="patternsModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Mash Ups and APIs</div>
+                        <div class="description">
+                            An investigation into how APIs work, how they can be mashed up so multiple APIs can be shaped similarly, and how to communicate and consume APIs in a live project.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="apisModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Information Governance</div>
+                        <div class="description">
+                            An extensive look into how company's can ensure maximum security to prevent data breaches and ethical issues arising, whilst working with a realistic case study.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="governanceModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+        <div class="uniContent">
+            <div class="pageTitleSpace">
+
+            </div>
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Client Focused Business Solutions</div>
+                        <div class="description">
+                            Working with the NHS in teams, a business solution for a new auditing system would have to be created whilst requirement gathering and focusing on PRINCE2 standards.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="solutionsModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Web Production Project</div>
+                        <div class="description">
+                            A full stack application relating to a work based use case, with extensive research, planning and new technologies being used to build the perfect solution. All research areas need to be taken into account.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" id="webprojectModal">
+                        <i class="expand icon"></i>
+                        View Module
+                    </div>
+                </div>
+            </div>
+            <div class="pageTitleSpace">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<div class="ui modal" id="patterns">
+    <i class="close icon"></i>
+    <div class="header">
+        Patterns and Frameworks
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/patterns.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Design Patterns</li>
+                    <li>Research Skills and Referencing</li>
+                    <li>Frameworks</li>
+                    <li>Advanced class inheritance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="apis">
+    <i class="close icon"></i>
+    <div class="header">
+        Mash Ups and Commercial APIs
+    </div>
+    <div class="image content">
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Microservices</li>
+                    <li>Advanced APIs</li>
+                    <li>Cloud Hosting</li>
+                    <li>As a service solutions</li>
+                    <li>WPF</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="governance">
+    <i class="close icon"></i>
+    <div class="header">
+        Information Governance
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/riskgovernance.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Risk Assessment</li>
+                    <li>Disaster Recovery</li>
+                    <li>Ethical Issues</li>
+                    <li>Protocols</li>
+                    <li>Social Engineering</li>
+                    <li>Malicious Data Attacks</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="solutions">
+    <i class="close icon"></i>
+    <div class="header">
+        Client Focused Business Solutions
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="../assets/nhs.PNG">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>PRINCE2</li>
+                    <li>Project Management and organisation</li>
+                    <li>Prototyping</li>
+                    <li>Collaboration</li>
+                    <li>Project Roles</li>
+                    <li>Advanced communication with client</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="webproject">
+    <i class="close icon"></i>
+    <div class="header">
+        Web Production Project
+    </div>
+    <div class="image content">
+        <div class="ui medium image">
+            <img src="../assets/mediatR.png">
+        </div>
+        <div class="ui medium image">
+            <img src="../assets/project.png">
+        </div>
+        <div class="description">
+            <div class="ui header">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Swagger</li>
+                    <li>Postman</li>
+                    <li>Entity Framework</li>
+                    <li>.NET Core Web API</li>
+                    <li>MediatR Pattern</li>
+                    <li>React Native</li>
+                    <li>Mobile App Development</li>
+                    <li>MobX State management</li>
+                    <li>Independent Research</li>
+                    <li>Evaluation Skills</li>
+                    <li>React Router</li>
+                    <li>JWT Authorization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
